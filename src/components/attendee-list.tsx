@@ -6,6 +6,13 @@ import { Table } from './table/table'
 import { TableHeader } from './table/table-header'
 import { TableCell } from './table/table-cell'
 import { TableRow } from './table/table-row'
+import dayjs from 'dayjs'
+import relativeTime from 'dayjs/plugin/relativeTime'
+import 'dayjs/locale/pt-br'
+
+dayjs.extend(relativeTime);
+dayjs.locale('pt-br');
+
 
 interface AttendeeList {
   id?: string,
@@ -137,10 +144,10 @@ export function AttendeeList() {
                     <span>{attendee.email}</span>
                   </div>
                 </TableCell>
-                <TableCell >{attendee.createdAt}</TableCell>
+                <TableCell >{dayjs().to(attendee.createdAt)}</TableCell>
                 <TableCell >{attendee.checkedInAt === null
                   ? <span className='text-zinc-400'>Não fez Check-In</span>
-                  : attendee.checkedInAt}
+                  : dayjs().to(attendee.checkedInAt)}
                 </TableCell>
                 <TableCell>
                   <IconButton transparent>
