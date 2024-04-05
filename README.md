@@ -14,3 +14,5 @@ No front-end usamos o React para realizar a interface dos componentes e interaç
 apesar de ser uma aplicação simples, foram utilizados alguns conceitos bem relevantes do React como Hooks, estados e componentização.
 
 Foi um projeto muito legal de ser realizado, consegui rever algusn conceitos e apreender algumas coisas novas que não tinha conhecimento e irei pesquisar para que possa aprimorar e aprofundar o que sei sobre <strong>React</strong>.
+
+<img src="./src/assets/Tela Projeto NLW.png" alt="ilustração de um computador" min-width="400px" max-width="400px" width="400px" align="right">
