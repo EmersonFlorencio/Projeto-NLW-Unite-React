@@ -15,4 +15,4 @@ apesar de ser uma aplicação simples, foram utilizados alguns conceitos bem rel
 
 Foi um projeto muito legal de ser realizado, consegui rever algusn conceitos e apreender algumas coisas novas que não tinha conhecimento e irei pesquisar para que possa aprimorar e aprofundar o que sei sobre <strong>React</strong>.
 
-<img src="./src/assets/Tela Projeto NLW.png" alt="ilustração de um computador" min-width="400px" max-width="400px" width="400px" align="right">
+<img src="./src/assets/Tela Projeto NLW.png" alt="ilustração de um computador" min-width="500px" max-width="700px" width="700px" align="center">
